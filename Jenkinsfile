@@ -14,7 +14,7 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                    echo 'sum-ting sum-sting...'
+                    echo 'sum-ting sum-sting.'
                 }
             }
         }
