@@ -14,7 +14,11 @@ pipeline {
         }
         stage('Deploy') {
             steps {
-                    echo 'sum-ting sum-sting.'
+                echo 'Deploying....'
+                    script {
+                    for(x in 5..10){
+                        println x //0,1,2,3,4,5
+                    }
                 }
             }
         }
